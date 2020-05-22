@@ -2,3 +2,16 @@
     margin-top: 40px;
     width: 500px;
 }
+
+div#direita{
+    text-align: right;
+}
+
+form#margem{
+    margin-top: 20px;
+}
+
+h4#sucesso{
+    width: 300px;
+
+}
