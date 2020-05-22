@@ -1,2 +1,3 @@
 # Projeto-Curso-Bootstrap-e-PHP
-PHP e Bootstrap
+
+Projeto do curso de Bootstrap com PHP e MySQL.
