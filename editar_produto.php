@@ -17,8 +17,8 @@ $id = $_GET['id'];
 </head>
 <body>
 <div class="container" id="tamanhoContainer">
-    <h4>Atualizar Produtos</h4>
-    <form id="margem" method="POST" action="inserir_produto.php">
+    <h4>Selecione um Produto</h4>
+    <form id="margem" method="POST" action="atualizar_produto.php">
         <?php
         $sql = "SELECT * FROM estoque WHERE id_estoque = $id";
         $buscar = mysqli_query($conn, $sql);
@@ -33,6 +33,7 @@ $id = $_GET['id'];
         <div class="form-group">
             <label for="exampleInputEmail1">Nro Produto</label>
             <input type="number" class="form-control" name="nroProduto" value="<?= $nroProduto; ?>" disabled>
+            <input type="number" class="form-control" name="id" value="<?= $id; ?>" style="display: none">
         </div>
         <div class="form-group">
             <label for="exampleInputEmail1">Nome do Produto</label>
@@ -40,7 +41,7 @@ $id = $_GET['id'];
         </div>
         <div class="form-group">
             <label>Categorias</label>
-            <select class="form-control" name="categoria" value="<?= $categoria; ?>">
+            <select class="form-control" name="categoria">
                 <option>Hardware</option>
                 <option>Periféricos</option>
                 <option>Celulares</option>

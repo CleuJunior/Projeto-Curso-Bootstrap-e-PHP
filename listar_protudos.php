@@ -44,7 +44,11 @@
            <td><?= $quantidade ?></td>
            <td><?= $fornecedor ?></td>
            <td><a class="btn btn-warning btn-sm" href="editar_produto.php?id=<?=$id_estoque;?>" role="button">
-           <i class="fas fa-edit"></i>&nbsp;Editar</a></td>
+           <i class="fas fa-edit"></i>&nbsp;Editar</a>
+           <a class="btn btn-danger btn-sm" href="deletar_produto.php?id=<?=$id_estoque;?>" role="button">
+           <i class="fas fa-trash"></i>&nbsp;Excluir</a>
+           </td>
+          
             <?php  endwhile; ?>
         </tr>
     </table>
