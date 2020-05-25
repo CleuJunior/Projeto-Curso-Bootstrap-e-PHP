@@ -24,7 +24,7 @@ $inserir = mysqli_query($conn, $sql);
 <div class="container" style="width: 500px; margin-top: 20px; text-align: center;">
     <h4 id="sucesso">Produto Adicionado com Sucesso</h4>
     <div style="padding-top: 20px;">
-          <a href="index.php" role="button" class="btn btn-sm btn-primary">Cadastrar novo Item</a>
+          <a href="adicionar_produtos.php" role="button" class="btn btn-sm btn-primary">Cadastrar novo Item</a>
    </div>
 
 </div>

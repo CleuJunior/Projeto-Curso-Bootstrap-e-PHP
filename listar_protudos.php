@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles.css">
     <script src="https://kit.fontawesome.com/8786c39b09.js"></script>
 
@@ -52,6 +52,9 @@
             <?php  endwhile; ?>
         </tr>
     </table>
+    <div style='text-align: right'>
+        <a href='index.php' role='button' class="btn btn-primary btn-sm">Voltar</a>
+    </div>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
